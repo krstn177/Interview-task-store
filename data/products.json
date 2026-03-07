@@ -1,0 +1,52 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Watches",
+            "products": [
+                {
+                    "id": 1,
+                    "brand": "Timex",
+                    "model": "Classic Watch",
+                    "price": 150,
+                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                },
+                {
+                    "id": 2,
+                    "brand": "Casio",
+                    "model": "Sport Watch",
+                    "price": 200,
+                    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA&w=1000&q=80"
+                },
+                {
+                    "id": 3,
+                    "brand": "Rolex",
+                    "model": "Luxury Watch",
+                    "price": 500,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Necklaces",
+            "products": [
+                
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bracelets",
+            "products": [
+                
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Earrings",
+            "products": [
+                
+            ]
+        }
+    ]
+}
