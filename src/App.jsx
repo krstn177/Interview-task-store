@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 import { useContext, useRef } from 'react';
 import { Navbar } from './components/shared/navbar/navbar';
@@ -6,6 +6,7 @@ import { Navbar } from './components/shared/navbar/navbar';
 import './App.css';
 import { CartProvider, CartContext } from './context/CartContext';
 import { Cart } from './components/shared/cart/Cart';
+import { CatalogPage } from './components/catalog/catalogpage/CatalogPage';
 
 function App() {
   const cartRef = useRef(null);
@@ -15,17 +16,17 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<div>Home Page</div>} />
-          <Route path="/category/:id" element={<div>Category Page</div>} />
+          <Route path="/" element={<Navigate to="/category/1" replace />} />
+          <Route path="/category/:id" element={<CatalogPage />} />
         </Routes>
         <CSSTransition
           in={showCart}
           timeout={700}
           classNames="fade"
           unmountOnExit
-          nodeRef={cartRef}  // Add this
+          nodeRef={cartRef}
         >
-          <div ref={cartRef}>  {/* Wrap Cart in div */}
+          <div ref={cartRef}>
             <Cart />
           </div>
         </CSSTransition>

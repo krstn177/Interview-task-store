@@ -8,22 +8,142 @@
                     "id": 1,
                     "brand": "Timex",
                     "model": "Classic Watch",
+                    "material": "Leather Strap",
                     "price": 150,
+                    "originalPrice": 200,
+                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
+                    "stars": 4.5,
                     "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
                 },
                 {
                     "id": 2,
                     "brand": "Casio",
+                    "material": "Stainless Steel",
                     "model": "Sport Watch",
                     "price": 200,
+                    "description": "A durable sport watch with a stainless steel case, designed for active lifestyles.",
+                    "stars": 4.0,
                     "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA&w=1000&q=80"
                 },
                 {
                     "id": 3,
                     "brand": "Rolex",
+                    "material": "Gold",
                     "model": "Luxury Watch",
                     "price": 500,
+                    "description": "A luxurious watch crafted with gold, featuring exquisite design and precision.",
+                    "stars": 4.8,
                     "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                },
+                {
+                    "id": 21,
+                    "brand": "Timex",
+                    "model": "Classic Watch",
+                    "material": "Leather Strap",
+                    "price": 150,
+                    "originalPrice": 200,
+                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                },
+                {
+                    "id": 32,
+                    "brand": "Timex",
+                    "model": "Classic Watch",
+                    "material": "Leather Strap",
+                    "price": 150,
+                    "originalPrice": 200,
+                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                },
+                {
+                    "id": 22,
+                    "brand": "Timex",
+                    "model": "Classic Watch",
+                    "material": "Leather Strap",
+                    "price": 150,
+                    "originalPrice": 200,
+                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                },
+                {
+                    "id": 42,
+                    "brand": "Timex",
+                    "model": "Classic Watch",
+                    "material": "Leather Strap",
+                    "price": 150,
+                    "originalPrice": 200,
+                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                },
+                {
+                    "id": 41,
+                    "brand": "Timex",
+                    "model": "Classic Watch",
+                    "material": "Leather Strap",
+                    "price": 150,
+                    "originalPrice": 200,
+                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                },
+                {
+                    "id": 51,
+                    "brand": "Timex",
+                    "model": "Classic Watch",
+                    "material": "Leather Strap",
+                    "price": 150,
+                    "originalPrice": 200,
+                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                },
+                {
+                    "id": 76,
+                    "brand": "Timex",
+                    "model": "Classic Watch",
+                    "material": "Leather Strap",
+                    "price": 150,
+                    "originalPrice": 200,
+                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                },
+                {
+                    "id": 67,
+                    "brand": "Timex",
+                    "model": "Classic Watch",
+                    "material": "Leather Strap",
+                    "price": 150,
+                    "originalPrice": 200,
+                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                },
+                {
+                    "id": 66,
+                    "brand": "Timex",
+                    "model": "Classic Watch",
+                    "material": "Leather Strap",
+                    "price": 150,
+                    "originalPrice": 200,
+                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                },
+                {
+                    "id": 77,
+                    "brand": "Timex",
+                    "model": "Classic Watch",
+                    "material": "Leather Strap",
+                    "price": 150,
+                    "originalPrice": 200,
+                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
                 }
             ]
         },
@@ -31,21 +151,141 @@
             "id": 2,
             "name": "Necklaces",
             "products": [
-                
+                {
+                    "id": 4,
+                    "brand": "Swarovski",
+                    "material": "Gold",
+                    "model": "Elegant Necklace",
+                    "price": 500,
+                    "originalPrice": 600,
+                    "description": "An elegant necklace adorned with Swarovski crystals, perfect for special occasions.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                },
+                {
+                    "id": 5,
+                    "brand": "Pandora",
+                    "material": "Silver",
+                    "model": "Charm Necklace",
+                    "price": 300,
+                    "description": "A charming necklace featuring Pandora's signature charms, perfect for expressing your style.",
+                    "stars": 4.0,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                },
+                {
+                    "id": 6,
+                    "brand": "Tiffany & Co.",
+                    "material": "Platinum",
+                    "model": "Classic Necklace",
+                    "price": 800,
+                    "description": "A classic necklace crafted with platinum, featuring timeless elegance and sophistication.",
+                    "stars": 4.8,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                },
+                {
+                    "id": 7,
+                    "brand": "Cartier",
+                    "material": "Rose Gold",
+                    "model": "Love Necklace",
+                    "price": 1200,
+                    "description": "A romantic necklace crafted with rose gold, featuring Cartier's iconic Love design.",
+                    "stars": 4.8,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                }
             ]
         },
         {
             "id": 3,
             "name": "Bracelets",
             "products": [
-                
+                {
+                    "id": 8,
+                    "brand": "Michael Kors",
+                    "material": "Stainless Steel",
+                    "model": "Fashion Bracelet",
+                    "price": 250,
+                    "originalPrice": 300,
+                    "description": "A fashionable bracelet crafted with stainless steel, perfect for adding a touch of style to any outfit.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                },
+                {
+                    "id": 9,
+                    "brand": "Gucci",
+                    "material": "Leather",
+                    "model": "Classic Bracelet",
+                    "price": 400,
+                    "description": "A classic bracelet crafted with leather, featuring Gucci's signature design and craftsmanship.",
+                    "stars": 4.0,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                },
+                {
+                    "id": 10,
+                    "brand": "Hermès",
+                    "material": "Leather",
+                    "model": "Clic H Bracelet",
+                    "price": 600,
+                    "description": "A stylish bracelet crafted with leather, featuring Hermès' iconic Clic H design.",
+                    "stars": 4.8,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                },
+                {
+                    "id": 11,
+                    "brand": "Bvlgari",
+                    "material": "Gold",
+                    "model": "Serpenti Bracelet",
+                    "price": 900,
+                    "description": "A luxurious bracelet crafted with gold, featuring Bvlgari's iconic Serpenti design.",
+                    "stars": 4.8,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                }
             ]
         },
         {
             "id": 4,
             "name": "Earrings",
             "products": [
-                
+                {
+                    "id": 12,
+                    "brand": "Chanel",
+                    "material": "Gold",
+                    "model": "Classic Earrings",
+                    "price": 350,
+                    "originalPrice": 400,
+                    "description": "A pair of classic earrings crafted with gold, featuring Chanel's timeless design and elegance.",
+                    "stars": 4.5,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                },
+                {
+                    "id": 13,
+                    "brand": "Dior",
+                    "material": "Silver",
+                    "model": "Elegant Earrings",
+                    "price": 450,
+                    "description": "A pair of elegant earrings crafted with silver, featuring Dior's sophisticated design and craftsmanship.",
+                    "stars": 4.0,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                },
+                {
+                    "id": 14,
+                    "brand": "Prada",
+                    "material": "Platinum",
+                    "model": "Modern Earrings",
+                    "price": 550,
+                    "description": "A pair of modern earrings crafted with platinum, featuring Prada's innovative design and style.",
+                    "stars": 4.8,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                },
+                {
+                    "id": 15,
+                    "brand": "Versace",
+                    "material": "Gold",
+                    "model": "Medusa Earrings",
+                    "price": 650,
+                    "description": "A pair of luxurious earrings crafted with gold, featuring Versace's iconic Medusa design.",
+                    "stars": 4.8,
+                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                }
             ]
         }
     ]
