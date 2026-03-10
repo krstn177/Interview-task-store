@@ -14,7 +14,7 @@
                     "originalPrice": 200,
                     "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
                     "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                    "image": "https://img.eobuwie.cloud/product(4/f/d/b/4fdb7a4573cab279d20f517e5a00e958e43eb70b_20_0194366095623_AP.jpg,jpg)/chasovnik-timex-expedition-tw4b12500-brown-black-0194366095623.jpg"
                 },
                 {
                     "id": 2,
@@ -24,127 +24,87 @@
                     "price": 200,
                     "description": "A durable sport watch with a stainless steel case, designed for active lifestyles.",
                     "stars": 4.0,
-                    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA&w=1000&q=80"
+                    "image": "https://img.modivo.cloud/product(d/2/1/b/d21befda4cc3e2e6f1162d96a7daa8d473e6ce5f_20_4971850946540_pl.jpg,jpg)/casio-chasovnik-a159wgea-1ef-zlatist.jpg"
                 },
                 {
-                    "id": 3,
+                    "id": 11,
                     "brand": "Rolex",
                     "material": "Gold",
                     "model": "Luxury Watch",
                     "price": 500,
                     "description": "A luxurious watch crafted with gold, featuring exquisite design and precision.",
                     "stars": 4.8,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://newsroom-content.rolex.com/-/media/project/rolex/newsroom/rolex/rolex-newsroom-int/2025-04/land-dweller-visuals/images/newsroom-homepage-m127334-0001_2501fj_001-full_r.jpg?imwidth=196&impolicy=grid-08"
                 },
                 {
-                    "id": 21,
-                    "brand": "Timex",
-                    "model": "Classic Watch",
-                    "material": "Leather Strap",
-                    "price": 150,
-                    "originalPrice": 200,
-                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
-                    "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                    "id": 12,
+                    "brand": "Rolex",
+                    "material": "Gold",
+                    "model": "Luxury Watch",
+                    "price": 500,
+                    "description": "A luxurious watch crafted with gold, featuring exquisite design and precision.",
+                    "stars": 4.8,
+                    "image": "https://newsroom-content.rolex.com/-/media/project/rolex/newsroom/rolex/rolex-newsroom-int/2025-04/land-dweller-visuals/images/newsroom-homepage-m127334-0001_2501fj_001-full_r.jpg?imwidth=196&impolicy=grid-08"
                 },
                 {
-                    "id": 32,
-                    "brand": "Timex",
-                    "model": "Classic Watch",
-                    "material": "Leather Strap",
-                    "price": 150,
-                    "originalPrice": 200,
-                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
-                    "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                    "id": 13,
+                    "brand": "Rolex",
+                    "material": "Gold",
+                    "model": "Luxury Watch",
+                    "price": 500,
+                    "description": "A luxurious watch crafted with gold, featuring exquisite design and precision.",
+                    "stars": 4.8,
+                    "image": "https://newsroom-content.rolex.com/-/media/project/rolex/newsroom/rolex/rolex-newsroom-int/2025-04/land-dweller-visuals/images/newsroom-homepage-m127334-0001_2501fj_001-full_r.jpg?imwidth=196&impolicy=grid-08"
                 },
                 {
-                    "id": 22,
-                    "brand": "Timex",
-                    "model": "Classic Watch",
-                    "material": "Leather Strap",
-                    "price": 150,
-                    "originalPrice": 200,
-                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
-                    "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                    "id": 14,
+                    "brand": "Rolex",
+                    "material": "Gold",
+                    "model": "Luxury Watch",
+                    "price": 500,
+                    "description": "A luxurious watch crafted with gold, featuring exquisite design and precision.",
+                    "stars": 4.8,
+                    "image": "https://newsroom-content.rolex.com/-/media/project/rolex/newsroom/rolex/rolex-newsroom-int/2025-04/land-dweller-visuals/images/newsroom-homepage-m127334-0001_2501fj_001-full_r.jpg?imwidth=196&impolicy=grid-08"
                 },
                 {
-                    "id": 42,
-                    "brand": "Timex",
-                    "model": "Classic Watch",
-                    "material": "Leather Strap",
-                    "price": 150,
-                    "originalPrice": 200,
-                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
-                    "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                    "id": 15,
+                    "brand": "Rolex",
+                    "material": "Gold",
+                    "model": "Luxury Watch",
+                    "price": 500,
+                    "description": "A luxurious watch crafted with gold, featuring exquisite design and precision.",
+                    "stars": 4.8,
+                    "image": "https://newsroom-content.rolex.com/-/media/project/rolex/newsroom/rolex/rolex-newsroom-int/2025-04/land-dweller-visuals/images/newsroom-homepage-m127334-0001_2501fj_001-full_r.jpg?imwidth=196&impolicy=grid-08"
                 },
                 {
-                    "id": 41,
-                    "brand": "Timex",
-                    "model": "Classic Watch",
-                    "material": "Leather Strap",
-                    "price": 150,
-                    "originalPrice": 200,
-                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
-                    "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                    "id": 16,
+                    "brand": "Rolex",
+                    "material": "Gold",
+                    "model": "Luxury Watch",
+                    "price": 500,
+                    "description": "A luxurious watch crafted with gold, featuring exquisite design and precision.",
+                    "stars": 4.8,
+                    "image": "https://newsroom-content.rolex.com/-/media/project/rolex/newsroom/rolex/rolex-newsroom-int/2025-04/land-dweller-visuals/images/newsroom-homepage-m127334-0001_2501fj_001-full_r.jpg?imwidth=196&impolicy=grid-08"
                 },
                 {
-                    "id": 51,
-                    "brand": "Timex",
-                    "model": "Classic Watch",
-                    "material": "Leather Strap",
-                    "price": 150,
-                    "originalPrice": 200,
-                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
-                    "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                    "id": 17,
+                    "brand": "Rolex",
+                    "material": "Gold",
+                    "model": "Luxury Watch",
+                    "price": 500,
+                    "description": "A luxurious watch crafted with gold, featuring exquisite design and precision.",
+                    "stars": 4.8,
+                    "image": "https://newsroom-content.rolex.com/-/media/project/rolex/newsroom/rolex/rolex-newsroom-int/2025-04/land-dweller-visuals/images/newsroom-homepage-m127334-0001_2501fj_001-full_r.jpg?imwidth=196&impolicy=grid-08"
                 },
                 {
-                    "id": 76,
-                    "brand": "Timex",
-                    "model": "Classic Watch",
-                    "material": "Leather Strap",
-                    "price": 150,
-                    "originalPrice": 200,
-                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
-                    "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
-                },
-                {
-                    "id": 67,
-                    "brand": "Timex",
-                    "model": "Classic Watch",
-                    "material": "Leather Strap",
-                    "price": 150,
-                    "originalPrice": 200,
-                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
-                    "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
-                },
-                {
-                    "id": 66,
-                    "brand": "Timex",
-                    "model": "Classic Watch",
-                    "material": "Leather Strap",
-                    "price": 150,
-                    "originalPrice": 200,
-                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
-                    "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
-                },
-                {
-                    "id": 77,
-                    "brand": "Timex",
-                    "model": "Classic Watch",
-                    "material": "Leather Strap",
-                    "price": 150,
-                    "originalPrice": 200,
-                    "description": "A timeless classic watch with a leather strap, perfect for everyday wear.",
-                    "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1518544885068-9e1c0b4d9a7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3NpYyUyMHdhdGNofGVufDB8fDB8fHww&w=1000&q=80"
+                    "id": 18,
+                    "brand": "Rolex",
+                    "material": "Gold",
+                    "model": "Luxury Watch",
+                    "price": 500,
+                    "description": "A luxurious watch crafted with gold, featuring exquisite design and precision.",
+                    "stars": 4.8,
+                    "image": "https://newsroom-content.rolex.com/-/media/project/rolex/newsroom/rolex/rolex-newsroom-int/2025-04/land-dweller-visuals/images/newsroom-homepage-m127334-0001_2501fj_001-full_r.jpg?imwidth=196&impolicy=grid-08"
                 }
             ]
         },
@@ -162,7 +122,7 @@
                     "originalPrice": 600,
                     "description": "An elegant necklace adorned with Swarovski crystals, perfect for special occasions.",
                     "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://asset.swarovski.com/images/$size_1200/t_swa103/b_rgb:ffffff,c_scale,dpr_2.0,f_auto,w_186/5753339_png/una-angelic-necklace--round-cut--caramel--gold-tone-plated-swarovski-5753339.png"
                 },
                 {
                     "id": 5,
@@ -172,7 +132,7 @@
                     "price": 300,
                     "description": "A charming necklace featuring Pandora's signature charms, perfect for expressing your style.",
                     "stars": 4.0,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://zoom.jewelryimages.net/edge/shopnta/images/edge/954-2000668.jpg"
                 },
                 {
                     "id": 6,
@@ -182,7 +142,7 @@
                     "price": 800,
                     "description": "A classic necklace crafted with platinum, featuring timeless elegance and sophistication.",
                     "stars": 4.8,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://media.tiffany.com/is/image/tco/70923459_NL_MAIN1X1?hei=628&wid=628&fmt=webp"
                 },
                 {
                     "id": 7,
@@ -192,7 +152,67 @@
                     "price": 1200,
                     "description": "A romantic necklace crafted with rose gold, featuring Cartier's iconic Love design.",
                     "stars": 4.8,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://cdn-images.farfetch-contents.com/31/03/07/52/31030752_60316164_600.jpg"
+                },
+                {
+                    "id": 21,
+                    "brand": "Cartier",
+                    "material": "Rose Gold",
+                    "model": "Love Necklace",
+                    "price": 1200,
+                    "description": "A romantic necklace crafted with rose gold, featuring Cartier's iconic Love design.",
+                    "stars": 4.8,
+                    "image": "https://cdn-images.farfetch-contents.com/31/03/07/52/31030752_60316164_600.jpg"
+                },
+                {
+                    "id": 22,
+                    "brand": "Cartier",
+                    "material": "Rose Gold",
+                    "model": "Love Necklace",
+                    "price": 1200,
+                    "description": "A romantic necklace crafted with rose gold, featuring Cartier's iconic Love design.",
+                    "stars": 4.8,
+                    "image": "https://cdn-images.farfetch-contents.com/31/03/07/52/31030752_60316164_600.jpg"
+                },
+                {
+                    "id": 23,
+                    "brand": "Cartier",
+                    "material": "Rose Gold",
+                    "model": "Love Necklace",
+                    "price": 1200,
+                    "description": "A romantic necklace crafted with rose gold, featuring Cartier's iconic Love design.",
+                    "stars": 4.8,
+                    "image": "https://cdn-images.farfetch-contents.com/31/03/07/52/31030752_60316164_600.jpg"
+                },
+                {
+                    "id": 24,
+                    "brand": "Cartier",
+                    "material": "Rose Gold",
+                    "model": "Love Necklace",
+                    "price": 1200,
+                    "description": "A romantic necklace crafted with rose gold, featuring Cartier's iconic Love design.",
+                    "stars": 4.8,
+                    "image": "https://cdn-images.farfetch-contents.com/31/03/07/52/31030752_60316164_600.jpg"
+                },
+                {
+                    "id": 25,
+                    "brand": "Cartier",
+                    "material": "Rose Gold",
+                    "model": "Love Necklace",
+                    "price": 1200,
+                    "description": "A romantic necklace crafted with rose gold, featuring Cartier's iconic Love design.",
+                    "stars": 4.8,
+                    "image": "https://cdn-images.farfetch-contents.com/31/03/07/52/31030752_60316164_600.jpg"
+                },
+                {
+                    "id": 26,
+                    "brand": "Cartier",
+                    "material": "Rose Gold",
+                    "model": "Love Necklace",
+                    "price": 1200,
+                    "description": "A romantic necklace crafted with rose gold, featuring Cartier's iconic Love design.",
+                    "stars": 4.8,
+                    "image": "https://cdn-images.farfetch-contents.com/31/03/07/52/31030752_60316164_600.jpg"
                 }
             ]
         },
@@ -210,7 +230,7 @@
                     "originalPrice": 300,
                     "description": "A fashionable bracelet crafted with stainless steel, perfect for adding a touch of style to any outfit.",
                     "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://www.ditur.com/media/catalog/product/cache/9213dd647401eec95bc47dd3b1622a89/m/k/mkc1748cz040-2.jpg"
                 },
                 {
                     "id": 9,
@@ -220,7 +240,7 @@
                     "price": 400,
                     "description": "A classic bracelet crafted with leather, featuring Gucci's signature design and craftsmanship.",
                     "stars": 4.0,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1741024916/836833_JAAIV_8184_001_100_0000_Light-gucci-interlocking-leather-bracelet.jpg"
                 },
                 {
                     "id": 10,
@@ -230,17 +250,77 @@
                     "price": 600,
                     "description": "A stylish bracelet crafted with leather, featuring Hermès' iconic Clic H design.",
                     "stars": 4.8,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://assets.hermes.com/is/image/hermesproduct/collier-de-chien-disco-faubourg-bracelet--500263FC89-front-wm-2-0-0-800-800_g.jpg"
                 },
                 {
-                    "id": 11,
+                    "id": 31,
                     "brand": "Bvlgari",
                     "material": "Gold",
                     "model": "Serpenti Bracelet",
                     "price": 900,
                     "description": "A luxurious bracelet crafted with gold, featuring Bvlgari's iconic Serpenti design.",
                     "stars": 4.8,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://media.bulgari.com/image/upload/c_pad,h_1090,w_1090/q_auto/f_auto/1239138.png"
+                },
+                {
+                    "id": 32,
+                    "brand": "Bvlgari",
+                    "material": "Gold",
+                    "model": "Serpenti Bracelet",
+                    "price": 900,
+                    "description": "A luxurious bracelet crafted with gold, featuring Bvlgari's iconic Serpenti design.",
+                    "stars": 4.8,
+                    "image": "https://media.bulgari.com/image/upload/c_pad,h_1090,w_1090/q_auto/f_auto/1239138.png"
+                },
+                {
+                    "id": 33,
+                    "brand": "Bvlgari",
+                    "material": "Gold",
+                    "model": "Serpenti Bracelet",
+                    "price": 900,
+                    "description": "A luxurious bracelet crafted with gold, featuring Bvlgari's iconic Serpenti design.",
+                    "stars": 4.8,
+                    "image": "https://media.bulgari.com/image/upload/c_pad,h_1090,w_1090/q_auto/f_auto/1239138.png"
+                },
+                {
+                    "id": 34,
+                    "brand": "Bvlgari",
+                    "material": "Gold",
+                    "model": "Serpenti Bracelet",
+                    "price": 900,
+                    "description": "A luxurious bracelet crafted with gold, featuring Bvlgari's iconic Serpenti design.",
+                    "stars": 4.8,
+                    "image": "https://media.bulgari.com/image/upload/c_pad,h_1090,w_1090/q_auto/f_auto/1239138.png"
+                },
+                {
+                    "id": 35,
+                    "brand": "Bvlgari",
+                    "material": "Gold",
+                    "model": "Serpenti Bracelet",
+                    "price": 900,
+                    "description": "A luxurious bracelet crafted with gold, featuring Bvlgari's iconic Serpenti design.",
+                    "stars": 4.8,
+                    "image": "https://media.bulgari.com/image/upload/c_pad,h_1090,w_1090/q_auto/f_auto/1239138.png"
+                },
+                {
+                    "id": 36,
+                    "brand": "Bvlgari",
+                    "material": "Gold",
+                    "model": "Serpenti Bracelet",
+                    "price": 900,
+                    "description": "A luxurious bracelet crafted with gold, featuring Bvlgari's iconic Serpenti design.",
+                    "stars": 4.8,
+                    "image": "https://media.bulgari.com/image/upload/c_pad,h_1090,w_1090/q_auto/f_auto/1239138.png"
+                },
+                {
+                    "id": 37,
+                    "brand": "Bvlgari",
+                    "material": "Gold",
+                    "model": "Serpenti Bracelet",
+                    "price": 900,
+                    "description": "A luxurious bracelet crafted with gold, featuring Bvlgari's iconic Serpenti design.",
+                    "stars": 4.8,
+                    "image": "https://media.bulgari.com/image/upload/c_pad,h_1090,w_1090/q_auto/f_auto/1239138.png"
                 }
             ]
         },
@@ -250,7 +330,7 @@
             "description": "Stunning earrings to complete your look",
             "products": [
                 {
-                    "id": 12,
+                    "id": 41,
                     "brand": "Chanel",
                     "material": "Gold",
                     "model": "Classic Earrings",
@@ -258,37 +338,117 @@
                     "originalPrice": 400,
                     "description": "A pair of classic earrings crafted with gold, featuring Chanel's timeless design and elegance.",
                     "stars": 4.5,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://tellojewellers.com/cdn/shop/files/DSC01580_2048x.jpg?v=1693498434"
                 },
                 {
-                    "id": 13,
+                    "id": 42,
                     "brand": "Dior",
                     "material": "Silver",
                     "model": "Elegant Earrings",
                     "price": 450,
                     "description": "A pair of elegant earrings crafted with silver, featuring Dior's sophisticated design and craftsmanship.",
                     "stars": 4.0,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://assets.christiandior.com/is/image/diorprod/E1520PTCRSD009_SBG_E01-1?$r9x10_raw$&crop=0,0,4000,5000&wid=1850&hei=2000&scale=1&bfc=on&qlt=85"
                 },
                 {
-                    "id": 14,
+                    "id": 43,
                     "brand": "Prada",
                     "material": "Platinum",
                     "model": "Modern Earrings",
                     "price": 550,
                     "description": "A pair of modern earrings crafted with platinum, featuring Prada's innovative design and style.",
                     "stars": 4.8,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://www.prada.com/content/dam/pradabkg_products/1/1JO/1JO972/2DSPF0002/1JO972_2DSP_F0002_SLF.jpg"
                 },
                 {
-                    "id": 15,
+                    "id": 44,
                     "brand": "Versace",
                     "material": "Gold",
                     "model": "Medusa Earrings",
                     "price": 650,
                     "description": "A pair of luxurious earrings crafted with gold, featuring Versace's iconic Medusa design.",
                     "stars": 4.8,
-                    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2F0Y2h8ZW58MHx8MHx8fDA&w=1000&q=80"
+                    "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbccd49b2/original/90_DG2I135-DJMT_KVO_22_LaMedusaEarrings--Versace-online-store_1_1.jpg?sw=850&q=85&strip=true"
+                },
+                {
+                    "id": 45,
+                    "brand": "Versace",
+                    "material": "Gold",
+                    "model": "Medusa Earrings",
+                    "price": 650,
+                    "description": "A pair of luxurious earrings crafted with gold, featuring Versace's iconic Medusa design.",
+                    "stars": 4.8,
+                    "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbccd49b2/original/90_DG2I135-DJMT_KVO_22_LaMedusaEarrings--Versace-online-store_1_1.jpg?sw=850&q=85&strip=true"
+                },
+                {
+                    "id": 46,
+                    "brand": "Versace",
+                    "material": "Gold",
+                    "model": "Medusa Earrings",
+                    "price": 650,
+                    "description": "A pair of luxurious earrings crafted with gold, featuring Versace's iconic Medusa design.",
+                    "stars": 4.8,
+                    "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbccd49b2/original/90_DG2I135-DJMT_KVO_22_LaMedusaEarrings--Versace-online-store_1_1.jpg?sw=850&q=85&strip=true"
+                },
+                {
+                    "id": 47,
+                    "brand": "Versace",
+                    "material": "Gold",
+                    "model": "Medusa Earrings",
+                    "price": 650,
+                    "description": "A pair of luxurious earrings crafted with gold, featuring Versace's iconic Medusa design.",
+                    "stars": 4.8,
+                    "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbccd49b2/original/90_DG2I135-DJMT_KVO_22_LaMedusaEarrings--Versace-online-store_1_1.jpg?sw=850&q=85&strip=true"
+                },
+                {
+                    "id": 48,
+                    "brand": "Versace",
+                    "material": "Gold",
+                    "model": "Medusa Earrings",
+                    "price": 650,
+                    "description": "A pair of luxurious earrings crafted with gold, featuring Versace's iconic Medusa design.",
+                    "stars": 4.8,
+                    "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbccd49b2/original/90_DG2I135-DJMT_KVO_22_LaMedusaEarrings--Versace-online-store_1_1.jpg?sw=850&q=85&strip=true"
+                },
+                {
+                    "id": 49,
+                    "brand": "Versace",
+                    "material": "Gold",
+                    "model": "Medusa Earrings",
+                    "price": 650,
+                    "description": "A pair of luxurious earrings crafted with gold, featuring Versace's iconic Medusa design.",
+                    "stars": 4.8,
+                    "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbccd49b2/original/90_DG2I135-DJMT_KVO_22_LaMedusaEarrings--Versace-online-store_1_1.jpg?sw=850&q=85&strip=true"
+                },
+                {
+                    "id": 50,
+                    "brand": "Versace",
+                    "material": "Gold",
+                    "model": "Medusa Earrings",
+                    "price": 650,
+                    "description": "A pair of luxurious earrings crafted with gold, featuring Versace's iconic Medusa design.",
+                    "stars": 4.8,
+                    "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbccd49b2/original/90_DG2I135-DJMT_KVO_22_LaMedusaEarrings--Versace-online-store_1_1.jpg?sw=850&q=85&strip=true"
+                },
+                {
+                    "id": 51,
+                    "brand": "Versace",
+                    "material": "Gold",
+                    "model": "Medusa Earrings",
+                    "price": 650,
+                    "description": "A pair of luxurious earrings crafted with gold, featuring Versace's iconic Medusa design.",
+                    "stars": 4.8,
+                    "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbccd49b2/original/90_DG2I135-DJMT_KVO_22_LaMedusaEarrings--Versace-online-store_1_1.jpg?sw=850&q=85&strip=true"
+                },
+                {
+                    "id": 52,
+                    "brand": "Versace",
+                    "material": "Gold",
+                    "model": "Medusa Earrings",
+                    "price": 650,
+                    "description": "A pair of luxurious earrings crafted with gold, featuring Versace's iconic Medusa design.",
+                    "stars": 4.8,
+                    "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbccd49b2/original/90_DG2I135-DJMT_KVO_22_LaMedusaEarrings--Versace-online-store_1_1.jpg?sw=850&q=85&strip=true"
                 }
             ]
         }

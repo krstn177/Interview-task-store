@@ -1,6 +1,10 @@
-.navbarContainer {
+.navbar{
   position: sticky;
   top: 0;
+  z-index: 1000;
+}
+
+.navbarContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -113,7 +117,6 @@
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
-    z-index: 1000;
   }
 
   .navbarLinks.open {

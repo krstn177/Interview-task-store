@@ -12,7 +12,7 @@ export const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <div className={styles.navbarContainer}>
         <div className={styles.navbarLogo}>
           <NavLink to="/category/1">

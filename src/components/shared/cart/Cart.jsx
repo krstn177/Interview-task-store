@@ -82,7 +82,7 @@ export const Cart = () => {
         </table>
             {Object.keys(cartItems).length !== 0 &&
               <div className={styles.checkoutContainer}>
-                <Link to="/checkout" onClick={toggleCart} id={styles.checkoutLink}>
+                <Link to="#" onClick={toggleCart} id={styles.checkoutLink}>
                   Continue to Checkout
                 </Link>
               </div>
