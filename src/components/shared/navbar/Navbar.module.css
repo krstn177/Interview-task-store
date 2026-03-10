@@ -79,3 +79,62 @@
 .navbarCart .cartButton:hover {
   color: #ccc;
 }
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: color 0.3s;
+}
+
+.hamburger:hover {
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navbarLinks {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+  }
+
+  .navbarLinks.open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navbarLinks li {
+    margin: 0.5rem 0;
+  }
+
+  .navbarLogo img {
+    height: 50px;
+  }
+
+  .navbarContainer {
+    padding: 0.5rem 1rem;
+  }
+
+  .cartButton {
+    font-size: 1.2rem;
+  }
+}

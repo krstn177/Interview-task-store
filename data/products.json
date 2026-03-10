@@ -3,6 +3,7 @@
         {
             "id": 1,
             "name": "Watches",
+            "description": "Timeless timepieces for every occasion",
             "products": [
                 {
                     "id": 1,
@@ -150,6 +151,7 @@
         {
             "id": 2,
             "name": "Necklaces",
+            "description": "Elegant necklaces to complement your style",
             "products": [
                 {
                     "id": 4,
@@ -197,6 +199,7 @@
         {
             "id": 3,
             "name": "Bracelets",
+            "description": "Beautiful bracelets for everyday wear",
             "products": [
                 {
                     "id": 8,
@@ -244,6 +247,7 @@
         {
             "id": 4,
             "name": "Earrings",
+            "description": "Stunning earrings to complete your look",
             "products": [
                 {
                     "id": 12,

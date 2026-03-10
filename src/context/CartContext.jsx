@@ -51,17 +51,7 @@ export function CartProvider({ children }) {
     });
   };
 
-  const addToCart = (productId) => {
-    if (Object.keys(cartItems).includes(productId)) {
-      return;
-    } else {
-      setCartItems((prevCartItems) => { 
-       return {...prevCartItems, [productId]: products[productId]}
-    });
-    }
-  };
-
-  const addOtherProductToCart = (product, setCount) => {
+  const addToCart = (product, setCount) => {
     if (!showCart) toggleCart();
     if (Object.keys(cartItems).includes(product.id)) {
       return;
@@ -89,7 +79,7 @@ export function CartProvider({ children }) {
         cartItems,
         showCart,
         toggleCart,
-        addOtherProductToCart,
+        addToCart,
         removeFromCart,
         incrementCount,
         decrementCount,

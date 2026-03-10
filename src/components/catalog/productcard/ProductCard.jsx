@@ -3,10 +3,10 @@ import { CartContext } from '../../../context/CartContext';
 import styles from './ProductCard.module.css';
 
 export const ProductCard = ({ product }) => {
-  const { addOtherProductToCart } = useContext(CartContext);
+  const { addToCart } = useContext(CartContext);
 
   const handleAddToCart = () => {
-    addOtherProductToCart(product);
+    addToCart(product);
   };
 
   const renderStars = (rating) => {

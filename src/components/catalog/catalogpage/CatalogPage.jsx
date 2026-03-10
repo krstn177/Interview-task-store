@@ -1,7 +1,7 @@
 import productsData from '../../../../data/products.json';
 import styles from './CatalogPage.module.css';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { ProductCard } from '../productcard/ProductCard';
 
@@ -9,21 +9,32 @@ export const CatalogPage = () => {
   const { id } = useParams();
   let products = [];
   let title = 'Product Catalog';
+  let description = '';
 
   if (id) {
     const category = productsData.categories.find(cat => cat.id === parseInt(id));
     products = category ? category.products : [];
     title = category ? category.name : 'Category Not Found';
+    description = category ? category.description : '';
   } else {
     products = productsData.categories.flatMap(category => category.products);
   }
 
   const [visibleItemsCount, setVisibleItems] = useState(8);
-  const [searchTerm, setSearchTerm] = useState('');
   const [sortOption, setSortOption] = useState('');
   const [selectedMaterials, setSelectedMaterials] = useState([]);
   const [selectedBrands, setSelectedBrands] = useState([]);
   const [priceRange, setPriceRange] = useState([0, 10000]);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  // Reset filters when category changes
+  useEffect(() => {
+    setVisibleItems(8);
+    setSortOption('');
+    setSelectedMaterials([]);
+    setSelectedBrands([]);
+    setPriceRange([0, 10000]);
+  }, [id]);
 
   const handleLoadMore = () => {
     setVisibleItems(prev => Math.min(prev + 8, products.length));
@@ -45,16 +56,6 @@ export const CatalogPage = () => {
 
   const filteredProducts = useMemo(() => {
     let result = products;
-
-    // search
-    if (searchTerm.trim()) {
-      const term = searchTerm.toLowerCase();
-      result = result.filter(p =>
-        p.model.toLowerCase().includes(term) ||
-        p.brand.toLowerCase().includes(term) ||
-        p.description.toLowerCase().includes(term)
-      );
-    }
 
     // material filter
     if (selectedMaterials.length) {
@@ -90,7 +91,7 @@ export const CatalogPage = () => {
       }
     }
     return result;
-  }, [products, searchTerm, sortOption, selectedMaterials, selectedBrands, priceRange]);
+  }, [products, sortOption, selectedMaterials, selectedBrands, priceRange]);
 
   const displayedProducts = filteredProducts.slice(0, visibleItemsCount);
 
@@ -110,14 +111,23 @@ export const CatalogPage = () => {
     );
   };
 
-  const handlePriceChange = (values) => {
-    setPriceRange(values);
+    const handlePriceChange = (e) => {
+      const index = parseInt(e.target.dataset.index);
+      const newValue = parseInt(e.target.value) || 0;
+      const newRange = [...priceRange];
+      newRange[index] = newValue;
+      setPriceRange(newRange);
   };
 
   return (
     <div className={styles.catalogWithSidebar}>
-      <aside className={styles.sidebar}>
-        <h2>Filters</h2>
+      <aside className={`${styles.sidebar} ${sidebarOpen ? styles.open : ''}`}>
+        <div className={styles.sidebarHeader}>
+          <h2>Filters</h2>
+          <button className={styles.closeButton} onClick={() => setSidebarOpen(false)}>
+            <i className="fa-solid fa-times"></i>
+          </button>
+        </div>
         <div className={styles.filterSection}>
           <h3>Material</h3>
           {availableMaterials.map(mat => (
@@ -173,15 +183,14 @@ export const CatalogPage = () => {
       </aside>
 
       <div className={styles.mainContent}>
-        <h1>{title}</h1>
+        <button className={styles.filterToggle} onClick={() => setSidebarOpen(!sidebarOpen)}>
+          <i className="fa-solid fa-filter"></i> Filters
+        </button>
         <div className={styles.controls}>
-          <input
-            type="text"
-            placeholder="Search by name, brand or description..."
-            value={searchTerm}
-            onChange={e => setSearchTerm(e.target.value)}
-            className={styles.searchInput}
-          />
+          <div className={styles.categoryInfoContainer}>
+            <h1 className={styles.categoryTitle}>{title}</h1>
+            <p className={styles.categoryDesc}>{description}</p>
+          </div>
           <select
             value={sortOption}
             onChange={e => setSortOption(e.target.value)}

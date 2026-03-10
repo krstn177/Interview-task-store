@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 import { useContext, useRef } from 'react';
-import { Navbar } from './components/shared/navbar/navbar';
+import { Navbar } from './components/shared/navbar/Navbar';
 
 import './App.css';
 import { CartProvider, CartContext } from './context/CartContext';

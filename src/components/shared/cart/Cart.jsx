@@ -40,13 +40,15 @@ export const Cart = () => {
               Object.values(cartItems).map((item) => (
                 <tr key={item.id}>
                   <td>
-                    <img
-                      src={item.img}
-                      alt={item.name}
-                      className={styles.productImage}
-                    />
+                    <div className={styles.productImageContainer}>
+                      <img
+                        src={item.image}
+                        alt={item.model}
+                        className={styles.productImage}
+                      />
+                    </div>
                   </td>
-                  <td className={styles.productName}>{item.name}</td>
+                  <td className={styles.productName}>{item.model}</td>
                   <td>{item.price} €</td>
                   <td>
                     <button
