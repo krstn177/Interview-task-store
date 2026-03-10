@@ -1,4 +1,5 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
+import { toast } from 'react-toastify';
 import { CartContext } from '../../../context/CartContext';
 import styles from './ProductCard.module.css';
 
@@ -7,8 +8,10 @@ export const ProductCard = ({ product }) => {
 
   const handleAddToCart = () => {
     addToCart(product);
+    toast.success("Product has been added to cart successfully");
   };
 
+  //STARS RENDERING
   const renderStars = (rating) => {
     const fullStars = Math.floor(rating);
     const hasHalfStar = rating % 1 >= 0.5;

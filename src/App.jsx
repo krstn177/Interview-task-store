@@ -1,12 +1,14 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
+import { ToastContainer } from 'react-toastify';
 import { useContext, useRef } from 'react';
 import { Navbar } from './components/shared/navbar/Navbar';
 
 import './App.css';
-import { CartProvider, CartContext } from './context/CartContext';
+import { CartContext } from './context/CartContext';
 import { Cart } from './components/shared/cart/Cart';
 import { CatalogPage } from './components/catalog/catalogpage/CatalogPage';
+import Footer from './components/shared/footer/Footer';
 
 function App() {
   const cartRef = useRef(null);
@@ -14,6 +16,15 @@ function App() {
   
   return (
       <Router>
+        <ToastContainer
+          position="top-right"
+          autoClose={3000}
+          hideProgressBar={false}
+          newestOnTop
+          closeOnClick
+          pauseOnHover
+          draggable
+        />
         <Navbar />
         <Routes>
           <Route path="/" element={<Navigate to="/category/1" replace />} />
@@ -30,6 +41,7 @@ function App() {
             <Cart />
           </div>
         </CSSTransition>
+        <Footer />
       </Router>
   );
 }

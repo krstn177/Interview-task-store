@@ -11,6 +11,7 @@ export const CatalogPage = () => {
   let title = 'Product Catalog';
   let description = '';
 
+  //PAGE SETUP
   if (id) {
     const category = productsData.categories.find(cat => cat.id === parseInt(id));
     products = category ? category.products : [];
@@ -20,6 +21,7 @@ export const CatalogPage = () => {
     products = productsData.categories.flatMap(category => category.products);
   }
 
+  //STATES
   const [visibleItemsCount, setVisibleItems] = useState(8);
   const [sortOption, setSortOption] = useState('');
   const [selectedMaterials, setSelectedMaterials] = useState([]);
@@ -27,7 +29,7 @@ export const CatalogPage = () => {
   const [priceRange, setPriceRange] = useState([0, 10000]);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  // Reset filters when category changes
+  //RESET
   useEffect(() => {
     setVisibleItems(8);
     setSortOption('');
@@ -36,10 +38,12 @@ export const CatalogPage = () => {
     setPriceRange([0, 10000]);
   }, [id]);
 
+  //LOAD MORE
   const handleLoadMore = () => {
     setVisibleItems(prev => Math.min(prev + 8, products.length));
   };
 
+  //GET FILTER CRITERIA
   const availableMaterials = useMemo(() => {
     const set = new Set(products.map(p => p.material));
     return Array.from(set);
@@ -54,23 +58,20 @@ export const CatalogPage = () => {
   const minPrice = Math.min(...prices, 0);
   const maxPrice = Math.max(...prices, 0);
 
+  //FILTERING LOGIC
   const filteredProducts = useMemo(() => {
     let result = products;
 
-    // material filter
     if (selectedMaterials.length) {
       result = result.filter(p => selectedMaterials.includes(p.material));
     }
 
-    // brand filter
     if (selectedBrands.length) {
       result = result.filter(p => selectedBrands.includes(p.brand));
     }
 
-    // price range filter
     result = result.filter(p => p.price >= priceRange[0] && p.price <= priceRange[1]);
 
-    // sorting
     if (sortOption) {
       result = [...result];
       switch (sortOption) {
@@ -95,6 +96,7 @@ export const CatalogPage = () => {
 
   const displayedProducts = filteredProducts.slice(0, visibleItemsCount);
 
+  //FILTER HANDLERS
   const handleMaterialChange = (material) => {
     setSelectedMaterials(prev =>
       prev.includes(material)
@@ -202,6 +204,9 @@ export const CatalogPage = () => {
             <option value="price-asc">Price ↑</option>
             <option value="price-desc">Price ↓</option>
           </select>
+        </div>
+        <div className={styles.displayCount}>
+          {displayedProducts.length} out of {filteredProducts.length} products displayed.
         </div>
         <div className={styles.grid}>
           {displayedProducts.map(product => (

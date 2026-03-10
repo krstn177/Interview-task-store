@@ -16,6 +16,13 @@
   margin-bottom: 1.5rem;
 }
 
+.displayCount {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
 .categoryInfoContainer{
   display: flex;
   justify-content: space-between;
