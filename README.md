@@ -1,9 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
 - # Interview Task Store
 
 - A small React + Vite sample application showcasing a product catalog and a simple shopping cart.
@@ -16,7 +10,7 @@ Currently, two official plugins are available:
 - `CatalogPage` to aggregate and render product listings
 - Filtering and Sorting dynamic categories implemented in the `CatalogPage` component
 - Shopping cart UI with add/remove functionality (`Cart` component)
-- Global cart state using `CartContext` (add, remove, totals)
+- Global cart state using `CartContext` (add, remove, increment, decrement counts)
 - Basic responsive layout and styling via CSS Modules
 - Local data source: `data/products.json` used as product feed
 
@@ -26,6 +20,7 @@ Currently, two official plugins are available:
 - CSS Modules for component-scoped styles
 - React Context API for global state (`CartContext.jsx`)
 - Node.js / npm for package management and scripts
+- Additional packages used: react-transition-group(for cart transition), react-toastify(for the notifications) and react-router-dom(routing)
 
 - ### How the solution was achieved
 - Project structured into `src/components` and `src/context` for separation of concerns
