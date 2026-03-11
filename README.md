@@ -4,13 +4,42 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- # Interview Task Store
 
-## React Compiler
+- A small React + Vite sample application showcasing a product catalog and a simple shopping cart.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ## Summary Structure (supporting points to write a project summary)
 
-## Expanding the ESLint configuration
+- ### What has been implemented
+- Product catalog UI showing a list of products
+- `ProductCard` component for individual product display
+- `CatalogPage` to aggregate and render product listings
+- Filtering and Sorting dynamic categories implemented in the `CatalogPage` component
+- Shopping cart UI with add/remove functionality (`Cart` component)
+- Global cart state using `CartContext` (add, remove, totals)
+- Basic responsive layout and styling via CSS Modules
+- Local data source: `data/products.json` used as product feed
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ### Which technologies were used
+- React (component-based UI)
+- Vite (dev server + build tooling)
+- CSS Modules for component-scoped styles
+- React Context API for global state (`CartContext.jsx`)
+- Node.js / npm for package management and scripts
+
+- ### How the solution was achieved
+- Project structured into `src/components` and `src/context` for separation of concerns
+- Catalog and product card components composed to keep components small and reusable
+- Cart state implemented in `CartContext.jsx` and provided at app root for easy access
+- Components consume context to update cart and compute totals
+- Styling scoped per-component using `*.module.css` to avoid global CSS conflicts
+- Product data loaded from `data/products.json` and mapped into UI components
+
+- ### Challenges encountered during development
+- Managing shared cart state without prop drilling — solved with React Context
+- Computing available filters and filter criteria without unnecessary operations and only when the relevant set of dependencies changes - solved with the useMemo hook
+- Ensuring styles are isolated while keeping a consistent layout across components
+- Small accessibility and responsive layout adjustments to ensure usable UI on various viewports
+
+- ---
+

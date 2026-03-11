@@ -18,7 +18,6 @@ export function CartProvider({ children }) {
   const toggleCart = () => {
     setShowCart((prevShowCart) => {
       const newShowCart = !prevShowCart;
-      console.log(newShowCart);
       return newShowCart;
     });
   };
